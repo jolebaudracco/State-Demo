@@ -2,6 +2,7 @@ import './App.css'
 import Counter from './Component/Counter'
 import Dumbo from './Component/Dumbo'
 import ScoreKeeper from './Component/ScoreKeeper'
+import EmojiClicker from './Component/EmojiClicker'
 
 function App() {
   
@@ -9,9 +10,10 @@ function App() {
   return (
     <>
       <h1>State Demo!</h1>
-      <Counter/>
+      {/* <Counter/>
       <Dumbo/> 
-      <ScoreKeeper/>
+      <ScoreKeeper/> */}
+      <EmojiClicker/>    
     </>
   )
 }
